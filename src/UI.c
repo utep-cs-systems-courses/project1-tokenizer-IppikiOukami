@@ -39,9 +39,11 @@ int main()
     }
     str[i] = '\0';                     // terminate string
 
+    printf("\nIn: %s\n",str);
+    
     switch(*str){
     case '0':
-      printf("\n\t Good-Bye!\n");
+      printf("\n\t  Good-Bye!\n");
       for(x = 1; x < n; x++){
 	for(y = 1; y <= (2*n); y++){
 	  if(x < y)
